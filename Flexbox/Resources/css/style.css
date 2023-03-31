@@ -1,0 +1,392 @@
+body {
+    text-align: center;
+}
+
+
+/* nav bar */
+.navbar {
+    width: 100%;
+    display: flex;
+    padding: 0.625rem;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: black 1px solid;
+    z-index: 1;
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(105,105,105);
+    top: 0;
+    background-color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100px;
+    width: auto;
+}
+
+
+.links ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    margin-right: 30px;
+}
+
+.links ul li {
+    padding: 0px 80px;
+}
+
+.links a {
+    font-size: 35px;
+    font-family: 'Prompt', sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.icons {
+    margin-right: 20px;
+}
+
+.icons ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    margin-right: 5px;
+}
+
+
+.info {
+    width: 70px;
+    height: 45px;
+}
+
+.insta {
+    width: 60px;
+    height: 60px;
+    padding-left: 15px;
+}
+
+.fb {
+    width: 40px;
+    height: 40px;
+}
+
+#logoo {
+    height: 523px;
+    width: 100%;
+    background-image: url(../images/taust.jpg);
+    background-size: cover;
+    margin-top: 39px;
+    padding-top: 120px;
+}
+
+/* Main */
+
+
+/*title */
+.title {
+    height: 100px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-content: center;
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(105,105,105);
+}
+
+.title h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 1.5px;
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(105,105,105);
+}
+
+/*Meie*/
+
+.content {
+    display: flex;
+    justify-content: center;
+}
+
+#meie {
+    flex-flow: column nowrap;
+    display: flex;
+    width: 100%;
+}
+
+#meie .image-container {
+    height: 900px;
+    background-image: url(../images/vanadkukkurid.jpg);
+    width: 100%;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-position: 0px;
+}
+
+.image-container {
+    width: 70%;
+    background-size: cover;
+    background-attachment: fixed;
+    align-content: center;
+    justify-content: center;
+}
+
+#missioon {
+    height: 400px;
+    width: 100%;
+    border: 3px black solid;
+    border-radius: 15px;
+    align-content: center;
+    justify-content: space-around;
+    line-height: 1.8;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-top: 250px;
+}
+
+#missioon h3 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 35px;
+    color: white;
+    text-align: center;
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(105,105,105);
+}
+
+#missioon p {
+    font-family:'Prompt', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* Visioon */
+  
+  .title2 {
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .title2 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(105, 105, 105);
+  }
+  
+  .missiooniks {
+    text-align: center;
+    width: 100%;
+    height: 30px;
+    margin-bottom: 50px;
+  }
+  
+  .missiooniks h3 {
+    font-size: 24px;
+    font-family: 'Prompt', sans-serif;
+    padding: 10px;
+  }
+  
+  .discgolf {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 10px;
+    padding: 10px;
+    justify-content: space-around;
+  }
+  
+  .discgolf img {
+    width: 200px;
+    height: auto;
+    margin-right: 1em;
+  }
+  
+  .hio {
+    display: flex;
+    align-items: flex-start;
+    padding-top: 10px;
+  }
+  
+  .hio h4 {
+    padding: 10px;
+    min-width: 240px;
+    font-size: 24px;
+    font-weight: bold;
+    font-family: 'Prompt', sans-serif;
+    text-align: center;
+    margin-bottom: 0.5em;
+    flex-grow: 1;
+  }
+  
+  .tekst p {
+    font-size: 20px;
+    line-height: 1.5;
+    font-family: 'Prompt', sans-serif;
+    width: 400px;
+  }
+  
+  .tekst {
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .hio:nth-child(3) img {
+    padding-top: 20px;
+  }
+  
+  .hio:nth-child(4) img {
+    margin-left: 10px;
+  }
+  
+/* Meie tiim */
+
+#tiim {
+    scroll-margin-top: 135px;
+    background-image: url("../images/tiim4.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 700px;
+}
+
+.title3 {
+    height: 30px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    text-align: center;
+    align-content: center;
+    padding-bottom: 30px;
+}
+
+.title3 h2 {
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 2px;
+    text-shadow: 0.125rem 0.125rem 0.5rem rgb(105,105,105);
+}
+#tiimikad{
+    display: flex;
+    width: 100%;
+    height: 650px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-between;
+}
+
+.tiimiliikmed {
+    display: flex;
+}
+
+.tiimiliige1 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+.tiimiliige2 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+.tiimiliige3 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+.tiimiliige4 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+.tiimiliige5 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+.tiimiliige6 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+.tiimiliige7 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+.tiimiliige8 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+.tiimiliige9 img {
+    width: 150px;
+    height: 150px;
+    padding: 20px 20px 0px 20px;
+    border-radius: 50px;
+    display: block;
+}
+#tiimikad h3 {
+    font-family:'Lexend Mega', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+}
+
+/* infoo and copyright */ 
+.contact {
+    padding-bottom: 10px;
+}
+
+#info .copyright {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#info h5 {
+    font-size: 18px;
+    font-family: 'Lexend Mega', sans-serif;
+}
+
+#info h2 {
+    font-size: 40px;
+    font-family: 'Lexend Mega', sans-serif;
+    padding: 10px;
+    font-weight: bold;
+}
+
+.copyright h5 {
+    font-size: 18px;
+    font-family: 'Lexend Mega', sans-serif;
+}
